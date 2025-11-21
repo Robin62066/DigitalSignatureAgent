@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Signing Agent",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "agent.main",
+            "justMyCode": true,
+            "env": {
+                "FLASK_ENV": "development"
+            },
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "python": "F:/python/VirtualEnv/venv-eSign/Scripts/python.exe"
+        }
+    ]
+}

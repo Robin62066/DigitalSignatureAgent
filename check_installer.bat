@@ -1,0 +1,6 @@
+@echo off
+echo Checking installer contents...
+"W:\DigitalSignatureAgent\installer\DigitalSignatureAgent_Setup.exe" /SILENT /DIR="W:\DigitalSignatureAgent\test_install"
+echo Installation attempted. Checking installed files...
+dir "W:\DigitalSignatureAgent\test_install" /s
+pause
