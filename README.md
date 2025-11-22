@@ -110,6 +110,10 @@ dist\DigitalSignatureAgent.exe
 
 (venv-eSign) D:\DigitalSignatureAgent\installer>build_installer.bat
 
+Installation Steps (End-User)
+  --> Download Installer: Obtain DigitalSignatureAgent_Setup.exe.
+  -->Run Installation: Execute the installer and follow the Setup Wizard prompts.
+  -->Verify Installation: Check for the System Tray Icon and verify that the API is running by navigating to http://127.0.0.1:5001 in a web browser.
 ```
 
 ### Part 2
